@@ -110,7 +110,7 @@ fun main() {
     // 5 - 0
     one@ for (x in 0..5) {
         for (y in 0..1) {
-            if ( (x + y) % 2 == 0)
+            if ((x + y) % 2 == 0)
                 continue@one
             println("$x - $y")
         }
@@ -126,7 +126,7 @@ fun main() {
     // 5 - 0
     for (x in 0..5) {
         for (y in 0..1) {
-            if ( (x + y) % 2 == 0)
+            if ((x + y) % 2 == 0)
                 continue
             println("$x - $y")
         }
@@ -136,7 +136,7 @@ fun main() {
     // Prints nothing
     one@ for (x in 0..5) {
         for (y in 0..1) {
-            if ( (x + y) % 2 == 0)
+            if ((x + y) % 2 == 0)
                 break@one
             println("$x - $y")
         }
@@ -149,7 +149,7 @@ fun main() {
     // 5 - 0
     one@ for (x in 0..5) {
         for (y in 0..1) {
-            if ( (x + y) % 2 == 0)
+            if ((x + y) % 2 == 0)
                 break
             println("$x - $y")
         }
